@@ -13,7 +13,7 @@ const commandFiles = readdirSync(join(__dirname, "komutlar")).filter(file => fil
 
 for (const file of commandFiles) {
     const command = require(join(__dirname, "komutlar", `${file}`));
-    client.commands.set(command.kod, command); // Komutları Ayarlıyoruz.
+    client.commands.set(command.kod, command);
 }
 
 client.on("error", console.error);
@@ -55,6 +55,4 @@ client.on('message', msg => {
   });
 
 
-client.login(ayarlar.token1)
-client.login(ayarlar.token2)
-client.login(ayarlar.token3)
+client.login(ayarlar.token)
