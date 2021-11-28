@@ -2,9 +2,9 @@
   "name": "plax-abone",
   "version": "0.0.1",
   "description": "",
-  "main": "frosty.js",
+  "main": "plaxium.js",
   "scripts": {
-    "test": "node frosty.js"
+    "test": "node plaxium.js"
   },
   "author": "",
   "license": "ISC",
