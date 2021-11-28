@@ -48,11 +48,5 @@ client.on("message", async message => {
     }
 })
 
-client.on('message', msg => {
-    if (msg.content.toLowerCase() === 'sa') {
-      msg.channel.send('as');
-    }
-  });
-
 
 client.login(ayarlar.token)
