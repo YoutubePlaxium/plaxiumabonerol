@@ -1,0 +1,14 @@
+{
+  "name": "plax-abone",
+  "version": "0.0.1",
+  "description": "",
+  "main": "frosty.js",
+  "scripts": {
+    "test": "node frosty.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
