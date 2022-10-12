@@ -23,10 +23,6 @@ client.on('ready', () => {
     console.log('Botumuz Aktif')
 });
 
-client.on('message', async msg => {
-    if(msg.content == `<@!901888748386660352>`) return msg.channel.send(`> **değistir | Prefix**\n\n> **Sanırım Beni Etiketledin.**\n > prefixim \`${prefix}\``);
-  });
-
 client.on("message", async message => {
 
     if(message.author.bot) return;
@@ -36,7 +32,7 @@ client.on("message", async message => {
 
         const command = args.shift().toLowerCase();
 
-        if(!client.commands.has(command)) return message.channel.send(`Komut dosyamda **${command}** adlı bir komut bulamadım.`);
+        if(!client.commands.has(command)) return message.channel.send(``);
 
 
         try {
