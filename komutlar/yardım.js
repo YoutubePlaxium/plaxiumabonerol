@@ -6,7 +6,7 @@ module.exports = {
         .setTitle('YARDIM KOMUTU')
         .addField(' ')
         .setDescription('Komutlarım:\n **abone**')
-        .addField('Frosty Codes')
+        .addField('Plaxium Codes')
         .setColor('RANDOM')
         .setThumbnail('https://i.hizliresim.com/dlfjizd.gif')
         .setImage('')
